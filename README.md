@@ -1,5 +1,5 @@
 # SoftCam.Key_Serjoga
-SoftCam by Serjoga Latvia 03.12.18
+SoftCam by Serjoga Latvia 12.12.18
 	<p><strong><span style="color: red">Update: </span></strong></p>
 	<p><br></p>
 	<p>Discovery-Europe 4.9°E  <span style="color: blue">PowerVu</span></p>

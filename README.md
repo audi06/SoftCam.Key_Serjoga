@@ -1,15 +1,17 @@
 # SoftCam.Key_Serjoga
 SoftCam by Serjoga Latvia 12.12.18
 <p><strong><span style="color: red">Update: </span></strong></p>
-<p>DR TLMRC (13°E) BISS</p>
-<p>SS Service 1 HD (16°E) BISS</p>
-<p>SRTV Feed (16°E) BISS</p>
-<p>FEED HD MBC (21.6°E) BISS</p>
-<p>TEST1, TEST2, TEST3 (4.9°E) BISS</p>
-<p>ESPN Caribbean (Caribbean 901) (15°W) BISS</p>
-<p>ESPN Syndication (Syndication 902) (15°W) BISS</p>
-<p>Discovery Europe Channels (12322V27500) (4.9°W) PowerVu</p>
-<p>Bulsat (39°E) Irdeto</p>
+<pre>DR TLMRC (13°E) BISS
+SS Service 1 HD (16°E) BISS
+SRTV Feed (16°E) BISS
+FEED HD MBC (21.6°E) BISS
+TEST1, TEST2, TEST3 (4.9°E) BISS
+ESPN Caribbean (Caribbean 901) (15°W) BISS
+ESPN Syndication (Syndication 902) (15°W) BISS
+Discovery Europe Channels (12322V27500) (4.9°W) PowerVu
+Bulsat (39°E) Irdeto
+</pre>
+
 
 
 <p><strong><span style="color: red">enigma2-plugin-extensions-KeyUpdate_20181203-r1.3_all.ipk</span></strong></p>

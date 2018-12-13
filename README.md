@@ -12,17 +12,16 @@ Discovery Europe Channels (12322V27500) (4.9°W) PowerVu
 Bulsat (39°E) Irdeto
 </pre>
 
-
-
 <p><strong><span style="color: red">enigma2-plugin-extensions-KeyUpdate_20181203-r1.3_all.ipk</span></strong></p>
 
 <p><strong>Plugin author</strong> <strong><span style="color:#FF0000;">audi06_19<br></span></strong><br> Plugin for my SoftCam.Key also last update you found in Git <a href="https://github.com/audi06/SoftCam.Key_Serjoga/commits/master/">Update SoftCam.Key · audi06/SoftCam.Key_Serjoga@679bf98 · GitHub</a></p>
 <p><br></p>
 <p>File SoftCam.Key after instaled you found in /usr/keys and /etc/tuxbox/config</p>
 <p>Who have problem with install here commands for telnet</p>
-<pre data-file="" data-highlighter="" data-line="1">opkg install curl
-opkg install /tmp/*.ipk
-killall -9 enigma2
+<pre data-file="" data-highlighter="" data-line="1">
+$ opkg install curl
+$ opkg install /tmp/*.ipk
+$ killall -9 enigma2
 </pre>
 <p>On my DM 920 and image OpenPli HomeBuild all is ok with out this commands</p>
 <p><span style="color:#000080;"><br></span></p>

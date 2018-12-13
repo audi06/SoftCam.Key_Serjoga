@@ -18,7 +18,6 @@ curl -s -Lkb -m 4 -m 6 $URL/README.md | grep -B100 'enigma2-plugin-extensions-Ke
 curl -s -Lbk -m 4 -m 6 $URL/SoftCam.Key >/usr/keys/SoftCam.Key
 chmod 0755 /usr/keys/SoftCam.Key -R;
 cp -rd /usr/keys/SoftCam.Key /etc/tuxbox/config/;
-echo $FIN;
 echo "::: Thank you: by Serjoga :::";
 echo "";
 echo "SoftCam.Key updated. Do not forget to restart the EMU. good looking ...";

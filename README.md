@@ -19,15 +19,15 @@ Bulsat (39°E) Irdeto
 <p>File SoftCam.Key after instaled you found in /usr/keys and /etc/tuxbox/config</p>
 <p>Who have problem with install here commands for telnet</p>
 <p><span style="color:#FF0000;"><strong></strong></span><strong><span style="color:#FF8C00;">OE 2.0</span></strong><span style="color:#FF0000;"><strong> Plugins Kurulum / install</strong></span></p>
-<kbd>opkg update</kbd>
-<kbd>opkg upgrade</kbd>
-<kbd>opkg install --force-depends --force-overwrite --force-downgrade curl</kbd>
+<p><kbd>opkg update</kbd></p>
+<p><kbd>opkg upgrade</kbd></p>
+<p><kbd>opkg install --force-depends --force-overwrite --force-downgrade curl</kbd></p>
 <p><strong><span style="color:#EE82EE;"><kbd>opkg install --force-overwrite --force-downgrade /tmp/*.ipk</kbd><br></span></strong></p>
 <p><strong><span style="color:#FF8C00;">OE2.5</span><span style="color:#FF0000;"> DreamOS DEB kurulum / install</span></strong></p>
-<kbd>apt update; apt upgrade</kbd>
-<kbd>apt-get install --yes --force-yes --assume-yes curl</kbd>
-<kbd>dpkg -i /tmp/*.deb</kbd>
-<kbd>apt-get -f --force-yes --assume-yes install</kbd>
+<p><kbd>apt update; apt upgrade</kbd></p>
+<p><kbd>apt-get install --yes --force-yes --assume-yes curl</kbd></p>
+<p><kbd>dpkg -i /tmp/*.deb</kbd></p>
+<p><kbd>apt-get -f --force-yes --assume-yes install</kbd></p>
 <p><br></p>
 <p>On my DM 920 and image OpenPli HomeBuild all is ok with out this commands</p>
 <p><span style="color:#000080;"><br></span></p>

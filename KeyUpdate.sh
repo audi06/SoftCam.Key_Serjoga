@@ -29,7 +29,11 @@ elif [ -f /etc/tuxbox/config/oscam/SoftCam.Key ] ; then
   check="/etc/tuxbox/config/oscam/SoftCam.Key";
 else
   echo "The SoftCam.Key file was not found.\n";
-  exit 0;
+  echo "It was sent to the following folder."
+  echo ": /etc/tuxbox/config/"
+  echo ": /usr/keys/"
+  cp -rd /usr/keys/SoftCam.Key /etc/tuxbox/config/SoftCam.Key
+#  exit 0;
 fi;
 # copy
 cp -rd /usr/keys/SoftCam.Key $check;

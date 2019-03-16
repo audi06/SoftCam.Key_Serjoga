@@ -32,11 +32,11 @@ else
   echo "It was sent to the following folder."
   echo ": /etc/tuxbox/config/"
   echo ": /usr/keys/"
-  cp -rd /usr/keys/SoftCam.Key /etc/tuxbox/config/SoftCam.Key
+  cp -f /usr/keys/SoftCam.Key /etc/tuxbox/config/SoftCam.Key
 #  exit 0;
 fi;
 # copy
-cp -rd /usr/keys/SoftCam.Key $check;
+cp -f /usr/keys/SoftCam.Key $check;
 echo "SoftCam.Key file sent. $check;";
 echo "";
 echo "SoftCam.Key updated. Do not forget to restart the EMU. good looking ...";

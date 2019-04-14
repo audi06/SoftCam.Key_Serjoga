@@ -20,7 +20,7 @@ cd ${TMP}
 # Github
 agent="--header='User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_0) AppleWebKit/600.1.17 (KHTML, like Gecko) Version/8.0 Safari/600.1.17'"
 crt="--no-check-certificate"
-rm -rf /usr/keys/SoftCam.Key
+
 wget -q $crt $agent $URL/SoftCam.Key
 # check softcamkey
 if [ -f {TMP}/SoftCam.Key ] ; then

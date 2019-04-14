@@ -49,7 +49,8 @@ else
   echo "Failed to download SoftCam.Key file !!!"
   echo "SoftCam.Key dosyası indirilemedi !!!"
   echo "";
-exit 0;
+  rm -rf ${TMP} > /dev/null;
+  exit 0;
 fi
 echo "SoftCam.Key file sent. $check;";
 echo "";
@@ -58,4 +59,5 @@ echo "";
 echo "::: Thank you: by Serjoga :::";
 echo "Support: www.dreamosat-forum.com ";
 echo $FIN
+rm -rf ${TMP} > /dev/null;
 exit 0

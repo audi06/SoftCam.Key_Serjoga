@@ -23,9 +23,9 @@ crt="--no-check-certificate"
 
 wget -q $crt $agent $URL/SoftCam.Key
 # check softcamkey
-if [ -f {TMP}/SoftCam.Key ] ; then
+if [ -f ${TMP}/SoftCam.Key ] ; then
   #
-  chmod 0755 {TMP}/SoftCam.Key -R;
+  chmod 0755 ${TMP}/SoftCam.Key -R;
   # check
   if [ -f /etc/tuxbox/config/SoftCam.Key ] ; then
     check="/etc/tuxbox/config/SoftCam.Key";
@@ -42,7 +42,7 @@ if [ -f {TMP}/SoftCam.Key ] ; then
   #  exit 0;
   fi;
   # copy
-  cp -rd {TMP}/SoftCam.Key $check;
+  cp -rd ${TMP}/SoftCam.Key $check;
   wget $crt $agent --quiet -O - $URL/README.md | grep -B100 -ia 'enigma2-plugin-extensions-KeyUpdate' | sed -e 's/<[^>]*>//g' | grep -va ".deb" | grep -va ".ipk";
 else
   echo "";

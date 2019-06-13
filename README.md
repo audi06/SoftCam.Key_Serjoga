@@ -1,20 +1,17 @@
 # SoftCam.Key_Serjoga
-SoftCam by Serjoga Latvia 16.03.2019
+SoftCam by Serjoga Latvia 13.06.2019
 <p><strong><span style="color: red">Update: </span></strong></p>
 <pre>ADD:
-Match Strana 90°E BISS
-VOULI, ERT 1, ERT 2, ERT Sports HD 39.0°E BISS
-mesame 36.0°E BISS
-CTC Kids 31.5°E BISS
-Vida TV 10°E BISS
+UA Fashion HD (4.0°W) BISS
+360 Tunebox HD, Fashionbox HD, Filmbox Arthouse SD, Timeless Drama Channel HD (26°E) BISS
 
 Update:
-FX 42°E Tandberg
+FOX Network Group 42°E Tandberg
 Discovery Europe Channels (4.9°E) PowerVu
 Discovery-Networks 4.9°E & 0.9°W PowerVu
 Bulsat (39°E) Irdeto
 ESPN Caribbean (Caribbean 901) & ESPN Syndication (Syndication 902) (15°W) BISS
-FeeD's NHL 1, NHL 2, NHL 3 22°W (February key) BISS
+FeeD's NHL 1, NHL 2, NHL 3 22°W (Juny key) BISS
 SRTV FeeD 16°E BISS
 MBC Masr FeeD 21.6°E BISS
 </pre>

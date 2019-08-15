@@ -18,10 +18,11 @@ cd ${TMP}
 [ -d /etc/tuxbox/config/ ] || mkdir -p /etc/tuxbox/config/;
 [ -d /usr/keys ] || mkdir -p /usr/keys;
 # Github
-agent="--header='User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_0) AppleWebKit/600.1.17 (KHTML, like Gecko) Version/8.0 Safari/600.1.17'"
-crt="--no-check-certificate"
+#agent="--header='User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_0) AppleWebKit/600.1.17 (KHTML, like Gecko) Version/8.0 Safari/600.1.17'"
+#crt="--no-check-certificate"
 
-wget -q $crt $agent $URL/SoftCam.Key
+#wget -q $crt $agent $URL/SoftCam.Key
+curl -Lk -s -m 4 -m 6 ${URL}/SoftCam.Key
 # check softcamkey
 if [ -f ${TMP}/SoftCam.Key ] ; then
   #
@@ -43,7 +44,8 @@ if [ -f ${TMP}/SoftCam.Key ] ; then
   fi;
   # copy
   cp -rd ${TMP}/SoftCam.Key $check;
-  wget $crt $agent --quiet -O - $URL/README.md | grep -B100 -ia 'enigma2-plugin-extensions-KeyUpdate' | sed -e 's/<[^>]*>//g' | grep -va ".deb" | grep -va ".ipk";
+  #wget $crt $agent --quiet -O - $URL/README.md | grep -B100 -ia 'enigma2-plugin-extensions-KeyUpdate' | sed -e 's/<[^>]*>//g' | grep -va ".deb" | grep -va ".ipk";
+  curl -Lk -s -m 4 -m 6 ${URL}/README.md | grep -B100 -ia 'enigma2-plugin-extensions-KeyUpdate' | sed -e 's/<[^>]*>//g' | grep -va ".deb" | grep -va ".ipk";
 else
   echo "";
   echo "Failed to download SoftCam.Key file !!!"

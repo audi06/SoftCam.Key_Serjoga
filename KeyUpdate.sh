@@ -22,7 +22,7 @@ cd ${TMP}
 #crt="--no-check-certificate"
 
 #wget -q $crt $agent $URL/SoftCam.Key
-curl -Lk -s -m 4 -m 6 ${URL}/SoftCam.Key -o SoftCam.Key
+curl -s -Lbk -m 4 -m 6 ${URL}/SoftCam.Key -o SoftCam.Key
 # check softcamkey
 if [ -f ${TMP}/SoftCam.Key ] ; then
   #

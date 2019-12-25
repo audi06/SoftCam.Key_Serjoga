@@ -1,5 +1,5 @@
 # SoftCam.Key_Serjoga
-SoftCam by Serjoga Latvia 13.06.2019
+SoftCam by Serjoga Latvia 25.12.2019
 <p><strong><span style="color: red">Update: </span></strong></p>
 <pre>ADD:
 UA Fashion HD (4.0°W) BISS
